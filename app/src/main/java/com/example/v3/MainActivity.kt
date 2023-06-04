@@ -29,7 +29,6 @@ import javax.net.ssl.HttpsURLConnection
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
-
 class MainActivity : AppCompatActivity() {
 
     lateinit var drawerLayout: DrawerLayout
@@ -375,7 +374,7 @@ class MyDatabaseHelper(private val context: Context) : SQLiteOpenHelper(context,
     //#############accesing database via terminal#################//
     //  adb -s emulator-5554 shell
     //  su
-    //  sqlite3 data/data/com.example.v3/databases/currencyConversionTableN
+    //  sqlite3 data/data/com.example.com.tecajni.kalkulator/databases/currencyConversionTableN
     //  SELECT * FROM currencyConversionTableN;
 }
 
